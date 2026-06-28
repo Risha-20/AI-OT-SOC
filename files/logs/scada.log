@@ -1,0 +1,352 @@
+2026-06-24 15:37:55,259 [INFO] [MQTT] Connected to localhost:1883
+2026-06-24 15:37:55,261 [INFO] [SCADA] scada-system-001 starting — publishing to 'ot/scada/events'
+2026-06-24 15:37:55,262 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:38:01,524 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:38:07,601 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:38:13,603 [WARNING] [ATTACK] T0859 — Failed login #1 for 'admin'
+2026-06-24 15:38:13,604 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:38:14,605 [WARNING] [ATTACK] T0859 — Failed login #1 for 'root'
+2026-06-24 15:38:14,607 [INFO] [SCADA] LOGIN_FAILURE user=root ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:38:15,133 [WARNING] [ATTACK] T0859 — Failed login #2 for 'root'
+2026-06-24 15:38:15,134 [INFO] [SCADA] LOGIN_FAILURE user=root ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:38:21,645 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:38:27,694 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:38:33,701 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:38:39,736 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:38
+2026-06-24 15:38:39,737 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:38:45,744 [INFO] [SCADA] LOGIN_SUCCESS user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:38:51,753 [INFO] [SCADA] VIEW_TREND user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:38:57,794 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:39:03,923 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:39:10,063 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:39:16,767 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:39:23,692 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:39:29,741 [INFO] [SCADA] PRINT_REPORT user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:39:35,746 [WARNING] [ATTACK] T0859 — Failed login #3 for 'root'
+2026-06-24 15:39:35,746 [INFO] [SCADA] LOGIN_FAILURE user=root ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:39:36,474 [WARNING] [ATTACK] T0859 — Failed login #1 for 'operator'
+2026-06-24 15:39:36,475 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:39:37,518 [WARNING] [ATTACK] T0859 — Failed login #1 for 'op.chen'
+2026-06-24 15:39:37,525 [INFO] [SCADA] LOGIN_FAILURE user=op.chen ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:39:38,310 [WARNING] [ATTACK] T0859 — Failed login #2 for 'admin'
+2026-06-24 15:39:38,312 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:39:44,928 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:39:51,000 [INFO] [SCADA] LOGIN_SUCCESS user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:39:57,008 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:40:03,066 [INFO] [SCADA] PRINT_REPORT user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:40:09,120 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:40:15,127 [WARNING] [ATTACK] T0859 — 'op.patel' logged in from unknown workstation: UNKNOWN-HOST
+2026-06-24 15:40:15,128 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=UNKNOWN-HOST type=unknown_workstation_login
+2026-06-24 15:40:21,132 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:40:27,161 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:40:33,174 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:40:39,482 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:40:45,628 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:40:51,637 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:40
+2026-06-24 15:40:51,638 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:40:57,863 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:41:04,023 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:41:10,034 [WARNING] [ATTACK] T0859 — 'op.johnson' logged in from unknown workstation: 192.168.99.55
+2026-06-24 15:41:10,035 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=192.168.99.55 type=unknown_workstation_login
+2026-06-24 15:41:16,061 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:41:22,257 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:41:28,650 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:41:34,815 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:41:40,823 [WARNING] [ATTACK] T0859 — Failed login #1 for 'op.johnson'
+2026-06-24 15:41:40,824 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:41:41,370 [WARNING] [ATTACK] T0859 — Failed login #3 for 'admin'
+2026-06-24 15:41:41,371 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:41:41,890 [WARNING] [ATTACK] T0859 — Failed login #1 for 'supervisor.kim'
+2026-06-24 15:41:41,890 [INFO] [SCADA] LOGIN_FAILURE user=supervisor.kim ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:41:48,435 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:41:54,496 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:42:00,500 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:42:06,562 [INFO] [SCADA] VIEW_TREND user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:42:12,649 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:42:18,651 [INFO] [SCADA] LOGOUT user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:42:24,752 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:42:30,766 [WARNING] [ATTACK] T0859 — Failed login #2 for 'op.johnson'
+2026-06-24 15:42:30,767 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:42:31,530 [WARNING] [ATTACK] T0859 — Failed login #4 for 'root'
+2026-06-24 15:42:31,532 [INFO] [SCADA] LOGIN_FAILURE user=root ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:42:32,519 [WARNING] [ATTACK] T0859 — Failed login #5 for 'root'
+2026-06-24 15:42:32,521 [INFO] [SCADA] LOGIN_FAILURE user=root ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:42:33,070 [WARNING] [ATTACK] T0859 — Failed login #2 for 'operator'
+2026-06-24 15:42:33,071 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:42:39,618 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:42:45,771 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:42:51,827 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:42:57,916 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:43:04,084 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:43:10,091 [INFO] [SCADA] ACK_ALARM user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:43:16,098 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:43:22,119 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:43:28,131 [WARNING] [ATTACK] T0859 — 'op.johnson' logged in from unknown workstation: UNKNOWN-HOST
+2026-06-24 15:43:28,131 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=UNKNOWN-HOST type=unknown_workstation_login
+2026-06-24 15:43:34,182 [WARNING] [ATTACK] T0859 — 'op.patel' logged in from unknown workstation: 192.168.99.55
+2026-06-24 15:43:34,183 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=192.168.99.55 type=unknown_workstation_login
+2026-06-24 15:43:40,194 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:43:46,203 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:43:52,209 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:43:58,231 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:44:04,239 [WARNING] [ATTACK] T0859 — Failed login #2 for 'op.chen'
+2026-06-24 15:44:04,240 [INFO] [SCADA] LOGIN_FAILURE user=op.chen ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:44:04,743 [WARNING] [ATTACK] T0859 — Failed login #2 for 'supervisor.kim'
+2026-06-24 15:44:04,743 [INFO] [SCADA] LOGIN_FAILURE user=supervisor.kim ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:44:05,247 [WARNING] [ATTACK] T0859 — Failed login #6 for 'root'
+2026-06-24 15:44:05,249 [INFO] [SCADA] LOGIN_FAILURE user=root ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:44:05,759 [WARNING] [ATTACK] T0859 — Failed login #7 for 'root'
+2026-06-24 15:44:05,759 [INFO] [SCADA] LOGIN_FAILURE user=root ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:44:12,270 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:44:18,283 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:44:24,381 [WARNING] [ATTACK] T0859 — Failed login #3 for 'supervisor.kim'
+2026-06-24 15:44:24,382 [INFO] [SCADA] LOGIN_FAILURE user=supervisor.kim ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:44:25,010 [WARNING] [ATTACK] T0859 — Failed login #3 for 'operator'
+2026-06-24 15:44:25,012 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:44:25,518 [WARNING] [ATTACK] T0859 — Failed login #4 for 'admin'
+2026-06-24 15:44:25,519 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:44:26,198 [WARNING] [ATTACK] T0859 — Failed login #5 for 'admin'
+2026-06-24 15:44:26,198 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:44:26,699 [WARNING] [ATTACK] T0859 — Failed login #3 for 'op.johnson'
+2026-06-24 15:44:26,699 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:44:27,203 [WARNING] [ATTACK] T0859 — Failed login #3 for 'op.chen'
+2026-06-24 15:44:27,204 [INFO] [SCADA] LOGIN_FAILURE user=op.chen ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:44:33,721 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:44:39,727 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:44:45,733 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:44:51,752 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:44:57,764 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:45:03,781 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:45:09,790 [INFO] [SCADA] ACK_ALARM user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:45:15,800 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:45:21,809 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:45:27,822 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:45:33,832 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:45:39,846 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:45:45,856 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:45:51,870 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:45:57,880 [INFO] [SCADA] LOGOUT user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:46:03,900 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:46:09,920 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:46:15,974 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:46:21,989 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:46:28,007 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:46:34,027 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:46:40,040 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:46:46,053 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:46:52,068 [INFO] [SCADA] LOGIN_SUCCESS user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:46:58,081 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:47:04,089 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:10,097 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:16,104 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:22,128 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:28,141 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:47:34,156 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:40,166 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:46,220 [INFO] [SCADA] VIEW_TREND user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:47:52,226 [INFO] [SCADA] VIEW_TREND user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:47:58,234 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:48:04,249 [INFO] [SCADA] PRINT_REPORT user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:48:10,289 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:48:16,320 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:48:22,368 [INFO] [SCADA] LOGOUT user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:48:28,376 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:48:34,400 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:48:40,412 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:48:46,465 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:48:52,481 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:48:58,488 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:49:04,495 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:49:10,502 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:49:16,520 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:49:22,539 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:49:28,547 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:49:34,558 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:49:40,566 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:49:46,580 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:49:52,588 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:49:58,598 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:50:04,604 [WARNING] [ATTACK] T0859 — 'op.patel' logged in from unknown workstation: 192.168.99.55
+2026-06-24 15:50:04,605 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=192.168.99.55 type=unknown_workstation_login
+2026-06-24 15:50:10,628 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:50:16,649 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:50
+2026-06-24 15:50:16,650 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:50:22,657 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:50:28,663 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:50:34,677 [WARNING] [ATTACK] T0859 — Failed login #1 for 'op.patel'
+2026-06-24 15:50:34,678 [INFO] [SCADA] LOGIN_FAILURE user=op.patel ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:50:35,187 [WARNING] [ATTACK] T0859 — Failed login #6 for 'admin'
+2026-06-24 15:50:35,187 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:50:35,689 [WARNING] [ATTACK] T0859 — Failed login #4 for 'operator'
+2026-06-24 15:50:35,689 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:50:42,209 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:50:48,237 [INFO] [SCADA] VIEW_TREND user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:50:54,284 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:51:00,291 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:51
+2026-06-24 15:51:00,291 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:51:06,312 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:51:12,321 [INFO] [SCADA] ACK_ALARM user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:51:18,365 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:51:24,810 [WARNING] [ATTACK] T0859 — Failed login #7 for 'admin'
+2026-06-24 15:51:24,815 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:51:25,318 [WARNING] [ATTACK] T0859 — Failed login #4 for 'op.chen'
+2026-06-24 15:51:25,318 [INFO] [SCADA] LOGIN_FAILURE user=op.chen ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:51:25,820 [WARNING] [ATTACK] T0859 — Failed login #4 for 'op.johnson'
+2026-06-24 15:51:25,821 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:51:26,322 [WARNING] [ATTACK] T0859 — Failed login #8 for 'root'
+2026-06-24 15:51:26,324 [INFO] [SCADA] LOGIN_FAILURE user=root ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:51:26,825 [WARNING] [ATTACK] T0859 — Failed login #5 for 'op.johnson'
+2026-06-24 15:51:26,826 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:51:33,338 [WARNING] [ATTACK] T0859 — Failed login #6 for 'op.johnson'
+2026-06-24 15:51:33,339 [INFO] [SCADA] LOGIN_FAILURE user=op.johnson ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:51:33,840 [WARNING] [ATTACK] T0859 — Failed login #5 for 'operator'
+2026-06-24 15:51:33,841 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:51:34,344 [WARNING] [ATTACK] T0859 — Failed login #9 for 'root'
+2026-06-24 15:51:34,344 [INFO] [SCADA] LOGIN_FAILURE user=root ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:51:40,860 [INFO] [SCADA] PRINT_REPORT user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:51:46,901 [INFO] [SCADA] ACK_ALARM user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 15:51:52,925 [INFO] [SCADA] LOGOUT user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:51:58,932 [INFO] [SCADA] LOGOUT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:52:04,943 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:52:10,951 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:52:16,965 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:52:22,992 [WARNING] [ATTACK] T0859 — Failed login #6 for 'operator'
+2026-06-24 15:52:22,994 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:52:23,496 [WARNING] [ATTACK] T0859 — Failed login #7 for 'operator'
+2026-06-24 15:52:23,497 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:52:23,998 [WARNING] [ATTACK] T0859 — Failed login #10 for 'root'
+2026-06-24 15:52:23,999 [INFO] [SCADA] LOGIN_FAILURE user=root ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:52:24,504 [WARNING] [ATTACK] T0859 — Failed login #8 for 'operator'
+2026-06-24 15:52:24,505 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:52:31,048 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:52:37,056 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:52:43,063 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:52
+2026-06-24 15:52:43,064 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:52:49,073 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:52:55,094 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:53:01,108 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:53:07,123 [INFO] [SCADA] LOGOUT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:53:13,622 [INFO] [SCADA] VIEW_TREND user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:53:19,633 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:53:25,650 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:53:31,661 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:53:37,693 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:53:43,705 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:53:49,807 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:53:55,907 [INFO] [SCADA] LOGIN_SUCCESS user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:54:01,939 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:54:08,202 [INFO] [SCADA] ACK_ALARM user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:54:14,210 [INFO] [SCADA] LOGOUT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:54:20,247 [INFO] [SCADA] VIEW_TREND user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:54:26,772 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:54:32,833 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 15:54:39,010 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:54:45,018 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:54
+2026-06-24 15:54:45,018 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:54:51,496 [INFO] [SCADA] LOGOUT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:54:57,523 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:55:03,590 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:55:09,857 [INFO] [SCADA] LOGOUT user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:55:15,990 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:55:22,170 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:55:28,183 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:55:34,406 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:55
+2026-06-24 15:55:34,406 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:55:40,528 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:55:46,750 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:55:52,758 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 15:55:58,798 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 15:56:04,994 [WARNING] [ATTACK] T0859 — Failed login #11 for 'root'
+2026-06-24 15:56:04,995 [INFO] [SCADA] LOGIN_FAILURE user=root ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:56:05,525 [WARNING] [ATTACK] T0859 — Failed login #12 for 'root'
+2026-06-24 15:56:05,527 [INFO] [SCADA] LOGIN_FAILURE user=root ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 15:56:06,029 [WARNING] [ATTACK] T0859 — Failed login #8 for 'admin'
+2026-06-24 15:56:06,030 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:56:12,645 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:56:18,696 [INFO] [SCADA] ACK_ALARM user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:56:24,702 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:56:30,731 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 15:56:36,746 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:56:42,768 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:56:48,821 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:56:54,829 [INFO] [SCADA] LOGOUT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:57:00,836 [INFO] [SCADA] PRINT_REPORT user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 15:57:06,869 [INFO] [SCADA] ACK_ALARM user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 15:57:12,887 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:57:18,913 [WARNING] [ATTACK] T0859 — Failed login #9 for 'operator'
+2026-06-24 15:57:18,913 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:57:19,417 [WARNING] [ATTACK] T0859 — Failed login #9 for 'admin'
+2026-06-24 15:57:19,417 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=192.168.99.55 type=failed_login_burst
+2026-06-24 15:57:19,921 [WARNING] [ATTACK] T0859 — Failed login #10 for 'admin'
+2026-06-24 15:57:19,922 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:57:20,483 [WARNING] [ATTACK] T0859 — Failed login #2 for 'op.patel'
+2026-06-24 15:57:20,484 [INFO] [SCADA] LOGIN_FAILURE user=op.patel ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 15:57:26,994 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 15:57:33,005 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 15:57
+2026-06-24 15:57:33,005 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 15:57:39,017 [WARNING] [ATTACK] T0859 — 'op.patel' logged in from unknown workstation: UNKNOWN-HOST
+2026-06-24 15:57:39,018 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=UNKNOWN-HOST type=unknown_workstation_login
+2026-06-24 15:57:45,028 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 15:57:51,035 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 15:57:57,042 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 15:58:03,055 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 15:58:09,065 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 16:00:34,746 [INFO] [SCADA] scada-system-001 starting — publishing to 'ot/scada/events'
+2026-06-24 16:00:34,746 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:00:34,747 [INFO] [MQTT] Connected to localhost:1883
+2026-06-24 16:00:40,762 [INFO] [SCADA] SETPOINT_CHANGE user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 16:00:46,824 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 16:00:53,023 [INFO] [SCADA] LOGOUT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 16:00:59,031 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:01:05,137 [INFO] [SCADA] ACK_ALARM user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 16:01:11,907 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:01:18,001 [INFO] [SCADA] SETPOINT_CHANGE user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 16:01:25,698 [WARNING] [ATTACK] T0859 — Failed login #1 for 'admin'
+2026-06-24 16:01:25,700 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 16:01:26,209 [WARNING] [ATTACK] T0859 — Failed login #1 for 'supervisor.kim'
+2026-06-24 16:01:26,210 [INFO] [SCADA] LOGIN_FAILURE user=supervisor.kim ws=UNKNOWN-HOST type=failed_login_burst
+2026-06-24 16:01:26,712 [WARNING] [ATTACK] T0859 — Failed login #2 for 'admin'
+2026-06-24 16:01:26,712 [INFO] [SCADA] LOGIN_FAILURE user=admin ws=192.168.99.55 type=failed_login_burst
+2026-06-24 16:01:27,216 [WARNING] [ATTACK] T0859 — Failed login #1 for 'operator'
+2026-06-24 16:01:27,217 [INFO] [SCADA] LOGIN_FAILURE user=operator ws=LAPTOP-ATTACKER type=failed_login_burst
+2026-06-24 16:01:33,724 [INFO] [SCADA] PRINT_REPORT user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 16:01:39,730 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 16:01:45,742 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:01:51,750 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 16:01:57,771 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 16:02:03,776 [INFO] [SCADA] ACK_ALARM user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:10,163 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:16,320 [INFO] [SCADA] LOGOUT user=op.chen ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:22,992 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:29,158 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:35,320 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:02:41,795 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 16:02:47,892 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 16:02:54,969 [INFO] [SCADA] ACK_ALARM user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 16:03:00,973 [INFO] [SCADA] LOGIN_SUCCESS user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 16:03:07,064 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:03:13,170 [INFO] [SCADA] LOGIN_SUCCESS user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:03:19,203 [INFO] [SCADA] ACK_ALARM user=supervisor.kim ws=ENGINEERING-WS type=normal
+2026-06-24 16:03:25,312 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 16:03
+2026-06-24 16:03:25,314 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 16:03:31,316 [INFO] [SCADA] VIEW_TREND user=supervisor.kim ws=HMI-STATION-01 type=normal
+2026-06-24 16:03:37,488 [INFO] [SCADA] PRINT_REPORT user=op.johnson ws=HMI-STATION-01 type=normal
+2026-06-24 16:03:43,671 [INFO] [SCADA] VIEW_TREND user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 16:03:49,731 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 16:03:55,757 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:01,759 [INFO] [SCADA] LOGIN_SUCCESS user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 16:04:08,154 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=ENGINEERING-WS type=normal
+2026-06-24 16:04:14,163 [WARNING] [ATTACK] T0821 — Setpoint changed outside hours at 16:04
+2026-06-24 16:04:14,164 [INFO] [SCADA] SETPOINT_CHANGE type=unauthorized_setpoint
+2026-06-24 16:04:20,188 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:26,492 [INFO] [SCADA] SETPOINT_CHANGE user=op.johnson ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:33,008 [INFO] [SCADA] PRINT_REPORT user=op.patel ws=HMI-STATION-01 type=normal
+2026-06-24 16:04:39,060 [INFO] [SCADA] SETPOINT_CHANGE user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:45,085 [INFO] [SCADA] LOGIN_SUCCESS user=supervisor.kim ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:51,144 [INFO] [SCADA] LOGOUT user=op.patel ws=HMI-STATION-02 type=normal
+2026-06-24 16:04:57,390 [INFO] [SCADA] VIEW_TREND user=op.chen ws=HMI-STATION-01 type=normal
+2026-06-24 16:05:03,474 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 16:05:09,610 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=ENGINEERING-WS type=normal
+2026-06-24 16:05:15,771 [INFO] [SCADA] ACK_ALARM user=op.chen ws=HMI-STATION-02 type=normal
+2026-06-24 16:05:21,785 [INFO] [SCADA] VIEW_TREND user=op.johnson ws=ENGINEERING-WS type=normal
+                                                                                                                                                                                                 

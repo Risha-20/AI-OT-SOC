@@ -1,0 +1,15 @@
+AI-Powered OT SOC Incident Report
+========================================
+
+Device: temp-sensor-001
+Device Type: temperature_sensor
+Severity: HIGH
+Anomaly Type: sensor_spoof
+MITRE Technique: T0856
+MITRE Name: Spoof Reporting Message
+
+Description:
+Detected sensor_spoof from temp-sensor-001
+
+Response Recommendation:
+Validate the physical sensor, inspect MQTT publisher, and compare with backup readings.

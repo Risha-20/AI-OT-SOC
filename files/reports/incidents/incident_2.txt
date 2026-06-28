@@ -1,0 +1,15 @@
+AI-Powered OT SOC Incident Report
+========================================
+
+Device: plc-controller-001
+Device Type: plc_controller
+Severity: HIGH
+Anomaly Type: unauthorized_command
+MITRE Technique: T0855
+MITRE Name: Unauthorized Command Message
+
+Description:
+Detected unauthorized_command from plc-controller-001
+
+Response Recommendation:
+Stop affected PLC process, review operator activity, and investigate command source.

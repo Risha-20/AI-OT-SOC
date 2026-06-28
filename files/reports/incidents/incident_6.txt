@@ -1,0 +1,15 @@
+AI-Powered OT SOC Incident Report
+========================================
+
+Device: scada-system-001
+Device Type: scada_system
+Severity: MEDIUM
+Anomaly Type: failed_login_burst
+MITRE Technique: T0859
+MITRE Name: Valid Accounts
+
+Description:
+Detected failed_login_burst from scada-system-001
+
+Response Recommendation:
+Temporarily disable suspicious account, review SCADA authentication logs, and block source workstation.

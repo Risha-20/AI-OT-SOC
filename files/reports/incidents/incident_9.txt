@@ -1,0 +1,15 @@
+AI-Powered OT SOC Incident Report
+========================================
+
+Device: tank-level-001
+Device Type: tank_level_sensor
+Severity: HIGH
+Anomaly Type: abnormal_level
+MITRE Technique: T0831
+MITRE Name: Manipulation of Control
+
+Description:
+Detected abnormal_level from tank-level-001
+
+Response Recommendation:
+Check tank valve state, verify sensor calibration, and review controller logic.

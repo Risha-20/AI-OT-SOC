@@ -1,0 +1,15 @@
+AI-Powered OT SOC Incident Report
+========================================
+
+Device: scada-system-001
+Device Type: scada_system
+Severity: MEDIUM
+Anomaly Type: unauthorized_setpoint
+MITRE Technique: T0821
+MITRE Name: Modify Controller Tasking
+
+Description:
+Detected unauthorized_setpoint from scada-system-001
+
+Response Recommendation:
+Restore safe setpoint, verify operator authorization, and review engineering workstation activity.
