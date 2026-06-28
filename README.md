@@ -20,15 +20,7 @@ An AI-powered Industrial (OT) Security Operations Center built using Python, MQT
 
 ## Project Workflow
 
-Device Simulation
-        ↓
-MQTT Collector
-        ↓
-Detection Engine
-        ↓
-Splunk Dashboard
-        ↓
-Incident Reports
+Device Simulation -> MQTT Collector -> Detection Engine -> Splunk Dashboard -> Incident Reports
 
 
 ## Folder Structure
