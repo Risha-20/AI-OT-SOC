@@ -30,23 +30,6 @@ Splunk Dashboard
         ↓
 Incident Reports
 
-## Screenshots
-
-### Detection Engine
-
-![Detection Engine](screenshots/detection_engine.png)
-
-### Splunk Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Incident Report
-
-![Incident Report](screenshots/incident_report.png)
-
-### Architecture
-
-![Architecture](docs/Flowchart.png)
 
 ## Folder Structure
 
