@@ -16,11 +16,11 @@ OT Devices → MQTT Broker → mqtt_collector.py → detection_engine.py → Spl
 
 | Device | Attack | MITRE Technique |
 |---|---|---|
-| temp-sensor-001 | Sensor spoofed to 999°C | T0856 — Spoof Reporting Message |
-| plc-controller-001 | Unauthorized motor command at 02:00 | T0855 — Unauthorized Command Message |
-| tank-level-001 | Tank level jumps to 98% or drops to 1% | T0831 — Manipulation of Control |
-| scada-system-001 | Rapid failed logins from unknown host | T0859 — Valid Accounts |
-| scada-system-001 | Setpoint changed 1200→3000 RPM from unknown host | T0821 — Modify Controller Tasking |
+| temp-sensor-001 | Sensor spoofed to 999°C | T0856 - Spoof Reporting Message |
+| plc-controller-001 | Unauthorized motor command at 02:00 | T0855 - Unauthorized Command Message |
+| tank-level-001 | Tank level jumps to 98% or drops to 1% | T0831 - Manipulation of Control |
+| scada-system-001 | Rapid failed logins from unknown host | T0859 - Valid Accounts |
+| scada-system-001 | Setpoint changed 1200→3000 RPM from unknown host | T0821 - Modify Controller Tasking |
 
 ## Quick Start
 
